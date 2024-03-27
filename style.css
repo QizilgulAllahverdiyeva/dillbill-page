@@ -1,0 +1,456 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 1550px;
+  margin: auto;
+}
+
+.blackheader {
+  background-color: #212327;
+  height: 50px;
+  font-family: "OpenSans";
+  gap: 20px;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+.blackheader div {
+  gap: 5px;
+}
+
+.english {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+
+.hamburgermenu {
+  display: none;
+  width: 20px;
+  height: 20px;
+}
+
+.hearing {
+  padding-right: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+.hearing a {
+  color: white;
+  text-decoration: none;
+}
+
+.bottomheader {
+  width: 100%;
+  background-color: #F4F8FB;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.pricing a {
+  font-size: 16px;
+}
+
+select {
+  border: none;
+  background: none;
+  padding-left: 10px;
+  color: white;
+  width: 90px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media (max-width: 1550px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  .hamburgermenu {
+    display: inline-block;
+  }
+  .blackheader {
+    padding-left: 100px;
+    justify-content: space-between;
+  }
+  .pricing {
+    display: none;
+  }
+  .bottomheader {
+    position: static;
+  }
+}
+.Onlinelesson {
+  background-color: #F4F8FB;
+  padding: 100px;
+  padding-top: 120px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.privatelesson {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.englishonline h1 {
+  font-size: 50px;
+}
+.englishonline h1 span {
+  margin-right: 5px;
+  color: #1E9AF1;
+}
+
+.dilbil {
+  width: 70%;
+  height: 100%;
+}
+
+.Guarantee {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+@media (max-width: 992px) {
+  .Onlinelesson {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .dilbil {
+    width: 60%;
+    height: 80%;
+  }
+}
+.clipsection {
+  display: flex;
+  padding: 75px 150px;
+  justify-content: space-around;
+}
+
+@media (max-width: 992px) {
+  .clipsection {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+.learnfaster {
+  padding: 50px 150px;
+  background-color: #F4F8FB;
+}
+
+.tahir {
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+}
+
+.learnfaster {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.learnimg {
+  width: 500px;
+  height: 600px;
+}
+
+.whitediv {
+  padding: 50px;
+  background-color: white;
+  width: 500px;
+  height: 500px;
+}
+.whitediv .tahir {
+  margin-left: 170px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+}
+.whitediv p {
+  text-align: center;
+  font-size: 22px;
+  opacity: 0.8;
+}
+.whitediv .Zara {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.whitediv .Zara div p {
+  text-align: left;
+  font-size: 16px;
+  opacity: 0.7;
+}
+.whitediv h3 {
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0.7;
+  text-align: center;
+  margin-top: 10px;
+}
+.whitediv .vector {
+  margin: 20px 50px;
+  height: 1px;
+  width: 300px;
+  background-color: gray;
+}
+
+.speaking h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.speaking h1 span {
+  color: green;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+@media (max-width: 992px) {
+  .learnfaster {
+    flex-wrap: wrap;
+  }
+  .whitediv {
+    width: 100%;
+    height: 100%;
+  }
+}
+.pricingsectionn {
+  padding: 150px 200px;
+  background-color: #F4F8FB;
+}
+.pricingsectionn h1 {
+  text-align: center;
+}
+
+.greentickflex {
+  margin-top: 30px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.greenp {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.greentick {
+  width: 20px;
+  height: 20px;
+}
+
+.perweek {
+  padding: 20px 10px;
+  margin-top: 100px;
+  height: 400px;
+  border-radius: 8px;
+  width: 250px;
+  background-color: white;
+}
+.perweek h1 {
+  text-align: left;
+}
+.perweek h2 {
+  text-align: left;
+  font-size: 40px;
+  color: blue;
+  margin-top: 10px;
+}
+.perweek p {
+  opacity: 0.6;
+}
+.perweek div .vector {
+  width: 200px;
+  height: 1px;
+  background-color: gray;
+}
+
+.permonth {
+  margin: 20px 10px;
+}
+.permonth p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.threediv {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.trylesson {
+  border: 1px solid rgb(48, 33, 255);
+  background: none;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  background-color: #1E9AF1;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.trylesson:hover {
+  background-color: #0772be;
+}
+
+.perweekcenter {
+  margin-top: 50px;
+  height: 500px;
+  border: 2px;
+  border-color: rgba(255, 68, 0, 0.425);
+  border-style: solid;
+  align-items: center;
+}
+.perweekcenter div button {
+  margin-top: 50px;
+}
+
+@media (max-width: 992px) {
+  .greentickflex {
+    flex-wrap: wrap;
+  }
+  .threediv {
+    flex-wrap: wrap;
+  }
+}
+.footersection {
+  background-color: #F4F8FB;
+  flex-wrap: wrap;
+}
+.footersection img {
+  margin-top: 20px;
+}
+.footersection .footervector {
+  margin: auto;
+  width: 80%;
+  height: 1px;
+  background-color: gray;
+}
+.footersection .footerdiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.footersection .footerdiv ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.copyright {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Terms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerdiv {
+  flex-wrap: wrap;
+}
+
+.footersection {
+  padding: 50px 100px;
+}
+
+.dilbilbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dilbilbutton:hover {
+  background-color: #0772be;
+}
+
+.signup:hover {
+  background-color: rgb(48, 33, 255);
+  color: white;
+}
+
+.login:hover {
+  background-color: rgba(128, 128, 128, 0.7);
+  color: white;
+}
+
+.dilbilbutton {
+  width: 200px;
+  height: 50px;
+  margin-top: 50px;
+  background-color: #1E9AF1;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.login {
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  background: none;
+  border-radius: 5px;
+  color: rgba(128, 128, 128, 0.7);
+  width: 60px;
+  height: 30px;
+  font-size: 16px;
+}
+
+.signup {
+  border: 1px solid rgb(48, 33, 255);
+  background: none;
+  border-radius: 5px;
+  color: rgb(48, 33, 255);
+  width: 60px;
+  height: 30px;
+  font-size: 16px;
+}/*# sourceMappingURL=main.css.map */
